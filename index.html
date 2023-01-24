@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Challenge Alura </title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<img class="Logoalura" src="logoalura.png" alt="Logo da Alura">
+			<h1> 
+
+				Oracle + Alura <br> Decodificador de palavras. 💻
+
+			</h1>
+		</header>
+
+		<main>
+			<section>
+				<textarea class="text-area" cols="40" rows="4" placeholder="Digite Seu texto Aqui!!"></textarea>
+				
+				<div class="info">
+
+					<h6>&#9888;  Apenas letras minúsculas e sem acento.</h6>
+				</div>
+
+				<div class="botoes">
+					<button class="btn-encriptar" onclick="btnEncriptar()"> Criptografar</button>
+					<button class="btn-desencriptar" onclick="btnDesencriptar()"> Descriptografar</button>
+				</div>			
+			</section>
+
+			<section>
+				
+				<textarea id="texto" class="mensagem" cols="20" rows="10" value ="" placeholder= "Nenhuma mensagem encontrada" ></textarea>
+				<button class="btn-copiar" onclick="copiarTexto()"> Copiar</button>
+
+			</section>
+		</main>
+		<script src="script.js"></script>
+		<footer>
+		    
+		    <p> ©Copyright Desenvolvido por Douglas Oliveira | Alura - One 2022 </p>     
+            
+             	<a  href =" https://www.linkedin.com/in/douglasoliveiradesign/ "><img  src ="linkedin.png" alt =" LinkedIn " > Linkedin
+	            </a>
+
+	            <a href="https://www.instagram.com/dougllasvitor/?next=%2F"><img src="insta.png" alt="Logo do Instagran"> Instagran
+	            </a>	
+	            
+	           	<a  href =" https://github.com/Dvitinho " ><img  src ="github.png " alt ="Logo GitHub " > GitHub
+	            </a>	            
+		</footer>
+	</body>
+</html>
