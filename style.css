@@ -1,6 +1,6 @@
 *{
 	background: #500000;
-	família da fonte: 'Montserrat', sem serifa;
+	font-family: 'Montserrat', sem serifa;
 	font-size: 32px;
 	font-weight: 400;
 	line-height: 150%;
@@ -26,7 +26,7 @@ main {
 
 .text-area {
 	border: none;
-	color: whitesmoke;
+	color: white;
 	margin-top: 90px;
 	text-transform: lowercase;
 }
@@ -38,10 +38,10 @@ main {
 
 .mensagem {
 	background: #ffffff;
-	background-image: url("");
+	background-image: url("boneco.png");
 	background-repeat: no-repeat;
 	border: none;
-	border-radius: 24px;
+	border-radius: 30px;
 	color: #0A3871;
 	margin-left: 98px;
 	margin-top: 20px;
@@ -70,6 +70,13 @@ main {
 	width: 328px;
 }
 
+.btn-desencriptar:hover {
+	background: #c78c19;
+	color: white;
+	transform: scale(1.1);
+	transition: 1s
+}
+
 .btn-encriptar {
 	background-color: #000000;
 	border: 1px solid #0A3871;
@@ -78,6 +85,13 @@ main {
 	cursor: pointer;
 	height: 67px;
 	width: 328px;
+}
+
+.btn-encriptar:hover {
+	background: #c78c19;
+	color: white;
+	transform: scale(1.1);
+	transition: 1s
 }
 
 .btn-copiar {
@@ -93,24 +107,36 @@ main {
 	width: 336px;
 }
 
+.btn-copiar:hover {
+	background: #c78c19;
+	color: white;
+	transition: 1s
+}
+
 .info {
 	color: #7cb6d3;
 	font-size: 15px;
 }
 
 footer{
-	display: flex;
+	display: inline-block;
     flex-direction: column;
     padding: 1%;
     color: white;
     margin-top: 20px ;
     text-align: center;
 	padding: 40px 0;
+	text-decoration: none;
 }
 
+footer a:hover {
+	color: #c78c19;
+	text-decoration: underline;
+	transition: 0.6s
+}
 
 footer img{
-	display:inline;
+	display:inline-block;
 	padding: 2px;
 	width: 2%;
 	margin: 0 0 0 15px;
