@@ -37,9 +37,6 @@ main {
 	}
 
 .mensagem {
-	background-image: url("lupa.png");
-	background-repeat: no-repeat;
-	background-position:center center;
 	border: none;
 	border-radius: 30px;
 	color: #ffffff;
