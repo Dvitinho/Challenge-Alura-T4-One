@@ -141,3 +141,17 @@ footer img{
 	width: 2%;
 	margin: 0 0 0 15px;
 }
+
+@media screen and (max-width: 480px) {
+    .Logoalura, .text-area, .info, .botoes, .btn-copiar {
+        width: auto;
+    }
+
+    h1, h6 {
+        text-align: center;
+    }
+
+    footer {
+        position: static;
+    }
+}
